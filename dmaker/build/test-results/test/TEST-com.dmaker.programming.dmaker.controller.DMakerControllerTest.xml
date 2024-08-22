@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dmaker.programming.dmaker.controller.DMakerControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-22T03:37:52" hostname="DESKTOP-STK9A7R" time="0.593">
+  <properties/>
+  <testcase name="getAllDevelopers()" classname="com.dmaker.programming.dmaker.controller.DMakerControllerTest" time="0.593"/>
+  <system-out><![CDATA[2024-08-22T12:37:51.331+09:00  INFO 4152 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.dmaker.programming.dmaker.controller.DMakerControllerTest]: DMakerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-22T12:37:51.407+09:00  INFO 4152 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.dmaker.programming.dmaker.DmakerApplication for test class com.dmaker.programming.dmaker.controller.DMakerControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-08-22T12:37:51.509+09:00  INFO 4152 --- [    Test worker] c.d.p.d.controller.DMakerControllerTest  : Starting DMakerControllerTest using Java 17.0.12 with PID 4152 (started by Kim Garam in C:\academy_back_project\dmaker)
+2024-08-22T12:37:51.511+09:00  INFO 4152 --- [    Test worker] c.d.p.d.controller.DMakerControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T12:37:52.856+09:00  INFO 4152 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-22T12:37:52.859+09:00  INFO 4152 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-22T12:37:52.869+09:00  INFO 4152 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-08-22T12:37:52.906+09:00  INFO 4152 --- [    Test worker] c.d.p.d.controller.DMakerControllerTest  : Started DMakerControllerTest in 1.493 seconds (process running for 14.634)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /developers
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.dmaker.programming.dmaker.controller.DMakerController
+           Method = com.dmaker.programming.dmaker.controller.DMakerController#getAllDevelopers()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = [{"developerLevel":"JUNIOR","developerSkill":"BACK_END","memberId":"memberId1"},{"developerLevel":"SENIOR","developerSkill":"FRONT_END","memberId":"memberId2"}]
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

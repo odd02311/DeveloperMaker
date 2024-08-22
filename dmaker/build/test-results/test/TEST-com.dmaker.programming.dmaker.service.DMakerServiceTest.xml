@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dmaker.programming.dmaker.service.DMakerServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-08-22T03:37:53" hostname="DESKTOP-STK9A7R" time="0.552">
+  <properties/>
+  <testcase name="createDeveloperTest_failed_with_duplicated()" classname="com.dmaker.programming.dmaker.service.DMakerServiceTest" time="0.511"/>
+  <testcase name="testSomething()" classname="com.dmaker.programming.dmaker.service.DMakerServiceTest" time="0.01"/>
+  <testcase name="createDeveloperTest_success()" classname="com.dmaker.programming.dmaker.service.DMakerServiceTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
